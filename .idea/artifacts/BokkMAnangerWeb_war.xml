@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BokkMAnangerWeb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>BokkMAnangerWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BokkMAnangerWeb-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="BokkMAnangerWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="heart.js"></script>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    html,
+    body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: #94618E;
+    }
+
+    .aa {
+        position: fixed;
+        left: 50%;
+        bottom: 10px;
+        color: #ccc;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    canvas {
+        z-index: 99;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    #love{
+        margin-top: 150px;
+        text-align: center;
+        font-family: 宋体;
+        font-style: italic;
+    }
+</style>
+<body>
+<div id="love">
+    <h1>
+        刘雨欣，小许真的好爱你！
+    </h1>
+</div>
+<!-- 樱花 -->
+<div id="jsi-cherry-container" class="container">
+    <audio autoplay="autopaly">
+        <source src="renxi.mp3" type="audio/mp3" />
+    </audio>
+    <img class="img" src="./123.png" alt="" />
+    <!-- 爱心 -->
+    <canvas id="pinkboard" class="container"> </canvas>
+</div>
+<hr>
+
+
+</body>
+</html>

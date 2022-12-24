@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="xxx" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎注册 雨山图书</title>
+    <link href="test.css" rel="stylesheet" >
+</head>
+<body>
+<form method="post" action="SignInServlet">
+
+    <label for="username">
+        <span>用户:</span>
+        <input type="text" name="username" id="username" placeholder="请输入用户名">
+    </label>
+    <br/>
+    <label for="password">
+        <span>密码:</span>
+        <input type="password" name="password" id="password" placeholder="请输入密码">
+    </label>
+    <br>
+    <label>
+        <span>昵称:</span>
+        <input type="text" name="nickname" id="nickname" placeholder="请输入你的昵称">
+    </label>
+    <div>
+        <button >
+            注册
+        </button>
+    </div>
+</form>
+</body>
+</html>
